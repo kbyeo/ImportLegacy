@@ -1,0 +1,6 @@
+full_name,email,date_of_birth,timezone
+Sam Unique,sam.unique@example.com,1984-05-20,America/New_York
+Duplicate One,duplicate@example.com,1990-08-15,Europe/London
+Duplicate Two,duplicate@example.com,1991-03-22,Asia/Tokyo
+Tom Different,tom.different@example.com,1978-12-01,Australia/Melbourne
+Jane Last,jane.last@example.com,1995-07-14,America/Chicago

@@ -1,0 +1,11 @@
+full_name,email,date_of_birth,timezone
+Frank Lee,frank.lee@example.com,1982-06-18,America/Chicago
+Grace Kim,grace.kim@example.com,1993-02-28,Asia/Seoul
+,invalid.noname@example.com,1991-04-05,Europe/Paris
+Henry Ford,henry.ford@example.com,1970-10-01,America/Denver
+Irene Adler,irene.adler@example.com,1987-12-25,Europe/Amsterdam
+Jake Torres,notvalidemail,1994-03-14,America/Phoenix
+Kate Wilson,kate.wilson@example.com,1989-07-07,Pacific/Auckland
+Laura Perez,laura.perez@example.com,2050-06-01,America/Toronto
+Mike Chen,mike.chen@example.com,1976-01-19,Asia/Shanghai
+Nina Patel,nina.patel@example.com,1998-11-03,Asia/Kolkata

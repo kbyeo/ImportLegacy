@@ -1,0 +1,39 @@
+{
+  "name": "import-legacy",
+  "version": "1.0.0",
+  "description": "Production-grade Node.js backend for importing customer records from CSV files",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --forceExit --detectOpenHandles",
+    "test:coverage": "jest --coverage --forceExit --detectOpenHandles",
+    "test:unit": "jest tests/unit --forceExit",
+    "test:integration": "jest tests/integration --forceExit --detectOpenHandles"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "bullmq": "^5.4.2",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "ioredis": "^5.3.2",
+    "mongoose": "^8.2.1",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.11.0",
+    "winston": "^3.12.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "ioredis-mock": "^8.9.0",
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^9.1.8",
+    "supertest": "^6.3.4"
+  }
+}

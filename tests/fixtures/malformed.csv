@@ -1,0 +1,4 @@
+name,mail,dob
+John Doe,john@example.com
+"Unclosed quote,bad@example.com,1990-01-01,America/New_York
+extra,columns,here,too,many,fields,1985-05-05,Asia/Tokyo
